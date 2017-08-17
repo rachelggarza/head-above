@@ -18,6 +18,9 @@ UnityEngine.Analytics.UnityAnalyticsHandler::SendCustomEvent
 UnityEngine.Analytics.UnityAnalyticsHandler::SendCustomEventName
 UnityEngine.AnimationCurve::Cleanup
 UnityEngine.AnimationCurve::Init
+UnityEngine.Application::get_isEditor
+UnityEngine.Application::get_persistentDataPath
+UnityEngine.Application::get_platform
 UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks
 UnityEngine.AssetBundleCreateRequest::get_assetBundle
 UnityEngine.AssetBundleRequest::get_asset
@@ -112,11 +115,13 @@ UnityEngine.DebugLogHandler::Internal_LogException
 UnityEngine.GameObject::GetComponentsInternal
 UnityEngine.GameObject::CompareTag
 UnityEngine.GameObject::get_tag
+UnityEngine.GameObject::Internal_CreateGameObject
 UnityEngine.GameObject::SendMessage
 UnityEngine.GameObject::set_tag
 UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
+UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
 UnityEngine.GUILayer::INTERNAL_CALL_HitTest
@@ -256,6 +261,7 @@ UnityEngine.SphereCollider::get_radius
 UnityEngine.SphereCollider::INTERNAL_get_center
 UnityEngine.SphereCollider::INTERNAL_set_center
 UnityEngine.SphereCollider::set_radius
+UnityEngine.TextAsset::get_text
 UnityEngine.Texture2D::Internal_Create
 UnityEngine.Transform::get_childCount
 UnityEngine.Transform::GetChild
