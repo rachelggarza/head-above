@@ -2,6 +2,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.2'
 
 target 'Unity-iPhone' do
-pod 'Firebase/Analytics', '4.0.4'
-pod 'Firebase/Core', '4.0.4'
+pod 'Alamofire', '~> 4.5'
 end
