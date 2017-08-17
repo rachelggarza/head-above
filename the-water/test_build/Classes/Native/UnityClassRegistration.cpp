@@ -270,60 +270,60 @@ RegisterBuiltinTypes();
 	RegisterClass<MonoBehaviour>();
 	//7. NetworkView
 	RegisterClass<NetworkView>();
-	//8. TextAsset
-	RegisterClass<TextAsset>();
+	//8. Texture
+	RegisterClass<Texture>();
 	//9. NamedObject
 	RegisterClass<NamedObject>();
-	//10. Texture
-	RegisterClass<Texture>();
-	//11. Texture2D
+	//10. Texture2D
 	RegisterClass<Texture2D>();
-	//12. Transform
+	//11. Transform
 	RegisterClass<Transform>();
-	//13. UI::RectTransform
+	//12. UI::RectTransform
 	RegisterClass<UI::RectTransform>();
-	//14. Collider
+	//13. Collider
 	RegisterClass<Collider>();
-	//15. BoxCollider
+	//14. BoxCollider
 	RegisterClass<BoxCollider>();
-	//16. SphereCollider
+	//15. SphereCollider
 	RegisterClass<SphereCollider>();
-	//17. MeshCollider
+	//16. MeshCollider
 	RegisterClass<MeshCollider>();
-	//18. CapsuleCollider
+	//17. CapsuleCollider
 	RegisterClass<CapsuleCollider>();
-	//19. AudioClip
+	//18. AudioClip
 	RegisterClass<AudioClip>();
-	//20. SampleClip
+	//19. SampleClip
 	RegisterClass<SampleClip>();
-	//21. TextRendering::Font
+	//20. TextRendering::Font
 	RegisterClass<TextRendering::Font>();
-	//22. PreloadData
+	//21. PreloadData
 	RegisterClass<PreloadData>();
-	//23. Material
+	//22. Material
 	RegisterClass<Material>();
-	//24. Cubemap
+	//23. Cubemap
 	RegisterClass<Cubemap>();
-	//25. Texture3D
+	//24. Texture3D
 	RegisterClass<Texture3D>();
-	//26. Texture2DArray
+	//25. Texture2DArray
 	RegisterClass<Texture2DArray>();
-	//27. RenderTexture
+	//26. RenderTexture
 	RegisterClass<RenderTexture>();
-	//28. Mesh
+	//27. Mesh
 	RegisterClass<Mesh>();
-	//29. MeshFilter
+	//28. MeshFilter
 	RegisterClass<MeshFilter>();
-	//30. MeshRenderer
+	//29. MeshRenderer
 	RegisterClass<MeshRenderer>();
-	//31. Renderer
+	//30. Renderer
 	RegisterClass<Renderer>();
-	//32. Sprite
+	//31. Sprite
 	RegisterClass<Sprite>();
-	//33. LowerResBlitTexture
+	//32. LowerResBlitTexture
 	RegisterClass<LowerResBlitTexture>();
-	//34. MonoScript
+	//33. MonoScript
 	RegisterClass<MonoScript>();
+	//34. TextAsset
+	RegisterClass<TextAsset>();
 	//35. Shader
 	RegisterClass<Shader>();
 	//36. NetworkManager

@@ -92,22 +92,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AnimationCurve
 
-	//Start Registrations for type : UnityEngine.Application
-
-		//System.Boolean UnityEngine.Application::get_isEditor()
-		void Register_UnityEngine_Application_get_isEditor();
-		Register_UnityEngine_Application_get_isEditor();
-
-		//System.String UnityEngine.Application::get_persistentDataPath()
-		void Register_UnityEngine_Application_get_persistentDataPath();
-		Register_UnityEngine_Application_get_persistentDataPath();
-
-		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-		void Register_UnityEngine_Application_get_platform();
-		Register_UnityEngine_Application_get_platform();
-
-	//End Registrations for type : UnityEngine.Application
-
 	//Start Registrations for type : UnityEngine.AssetBundleCreateRequest
 
 		//System.Void UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks()
@@ -550,10 +534,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_get_tag();
 		Register_UnityEngine_GameObject_get_tag();
 
-		//System.Void UnityEngine.GameObject::Internal_CreateGameObject(UnityEngine.GameObject,System.String)
-		void Register_UnityEngine_GameObject_Internal_CreateGameObject();
-		Register_UnityEngine_GameObject_Internal_CreateGameObject();
-
 		//System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
 		void Register_UnityEngine_GameObject_SendMessage();
 		Register_UnityEngine_GameObject_SendMessage();
@@ -573,10 +553,6 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Component UnityEngine.GameObject::GetComponentInParent(System.Type)
 		void Register_UnityEngine_GameObject_GetComponentInParent();
 		Register_UnityEngine_GameObject_GetComponentInParent();
-
-		//UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
-		void Register_UnityEngine_GameObject_Internal_AddComponentWithType();
-		Register_UnityEngine_GameObject_Internal_AddComponentWithType();
 
 	//End Registrations for type : UnityEngine.GameObject
 
@@ -1223,14 +1199,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_SphereCollider_set_radius();
 
 	//End Registrations for type : UnityEngine.SphereCollider
-
-	//Start Registrations for type : UnityEngine.TextAsset
-
-		//System.String UnityEngine.TextAsset::get_text()
-		void Register_UnityEngine_TextAsset_get_text();
-		Register_UnityEngine_TextAsset_get_text();
-
-	//End Registrations for type : UnityEngine.TextAsset
 
 	//Start Registrations for type : UnityEngine.Texture2D
 
